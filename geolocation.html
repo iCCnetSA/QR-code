@@ -14,14 +14,14 @@
           var longitude = position.coords.longitude;
 
           // Redirect to Google Apps Script with latitude and longitude as parameters
-          window.location.href = "https://script.google.com/macros/s/AKfycbwPG36u1IVxXDwhaeyUWI74EN5qdXceHq-ycsAN9qggO3xj6TvG7AroXIcxh7MFfcNI/exec?lat=" + latitude + "&lng=" + longitude;
+          window.location.href = "https://script.google.com/macros/s/AKfycbyrW8P0pqvXTgGjfQ-m3hZJso7EHNfKZi3eL9SwrWofzImdl-JivjU8rP7qjG8BB3rS/exec?lat=" + latitude + "&lng=" + longitude;
         }, function(error) {
           // If geolocation fails, redirect without location data
-          window.location.href = "https://script.google.com/macros/s/AKfycbwPG36u1IVxXDwhaeyUWI74EN5qdXceHq-ycsAN9qggO3xj6TvG7AroXIcxh7MFfcNI/exec";
+          window.location.href = "https://script.google.com/macros/s/AKfycbyrW8P0pqvXTgGjfQ-m3hZJso7EHNfKZi3eL9SwrWofzImdl-JivjU8rP7qjG8BB3rS/exec";
         });
       } else {
         // If geolocation is not supported, redirect without location data
-        window.location.href = "https://script.google.com/macros/s/AKfycbwPG36u1IVxXDwhaeyUWI74EN5qdXceHq-ycsAN9qggO3xj6TvG7AroXIcxh7MFfcNI/exec";
+        window.location.href = "https://script.google.com/macros/s/AKfycbyrW8P0pqvXTgGjfQ-m3hZJso7EHNfKZi3eL9SwrWofzImdl-JivjU8rP7qjG8BB3rS/exec";
       }
     </script>
   </body>
